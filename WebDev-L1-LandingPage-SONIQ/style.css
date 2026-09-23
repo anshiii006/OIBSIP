@@ -52,3 +52,529 @@ body {
 .nav-button:hover {
     background: #006dcc;
 }
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    min-height: 90vh;
+    padding: 80px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-tag {
+    color: #00aaff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.hero h1 span {
+    color: #00aaff;
+}
+
+.hero-description {
+    color: #bdbdbd;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    max-width: 500px;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background: #008cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #00aaff;
+    transform: translateY(-3px);
+}
+
+.hero-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+}
+/* =========================
+   FEATURES SECTION
+========================= */
+
+.features {
+    padding: 100px 7%;
+    background: #0a0a0a;
+    text-align: center;
+}
+
+.section-heading p {
+    color: #00aaff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.section-heading span {
+    color: #999;
+    font-size: 16px;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 55px;
+}
+
+.feature-card {
+    padding: 40px 30px;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    border-color: #00aaff;
+}
+
+.feature-icon {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #999;
+    line-height: 1.7;
+}
+/* =========================
+   SPECIFICATIONS SECTION
+========================= */
+
+.specifications {
+    padding: 110px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    background: #050505;
+}
+
+.spec-content {
+    flex: 1;
+}
+
+.spec-tag {
+    color: #00aaff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.spec-content h2 {
+    font-size: 46px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+.spec-content h2 span {
+    color: #00aaff;
+}
+
+.spec-description {
+    color: #999;
+    line-height: 1.8;
+    max-width: 550px;
+    margin-bottom: 35px;
+}
+
+.spec-list {
+    max-width: 550px;
+}
+
+.spec-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid #222;
+}
+
+.spec-item strong {
+    font-size: 16px;
+}
+
+.spec-item span {
+    color: #00aaff;
+}
+
+.spec-visual {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid #008cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 60px rgba(0, 140, 255, 0.25);
+}
+
+.spec-circle span {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+/* =========================
+   PRICING SECTION
+========================= */
+
+.pricing {
+    padding: 110px 7%;
+    background: #0a0a0a;
+    text-align: center;
+}
+
+.pricing-heading p {
+    color: #00aaff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.pricing-heading h2 {
+    font-size: 46px;
+    line-height: 1.15;
+    margin-bottom: 55px;
+}
+
+.pricing-heading h2 span {
+    color: #00aaff;
+}
+
+.pricing-card {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px 45px;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 25px;
+    box-shadow: 0 20px 60px rgba(0, 140, 255, 0.08);
+}
+
+.product-label {
+    color: #00aaff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.pricing-card h3 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.product-description {
+    color: #999;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.price span {
+    color: #00aaff;
+    font-size: 28px;
+}
+
+.price-features {
+    list-style: none;
+    text-align: left;
+    margin: 25px 0 35px;
+}
+
+.price-features li {
+    color: #ccc;
+    padding: 10px 0;
+    border-bottom: 1px solid #222;
+}
+
+.buy-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background: #008cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #00aaff;
+    transform: translateY(-3px);
+}
+/* Contact Section */
+
+.contact {
+    padding: 110px 7%;
+    text-align: center;
+    background: #050505;
+}
+
+.contact-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-tag {
+    color: #00aaff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.contact-content h2 {
+    font-size: 50px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.contact-content h2 span {
+    color: #00aaff;
+}
+
+.contact-content p {
+    color: #999;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: #008cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background: #00aaff;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 60px 7% 30px;
+    background: #000;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.footer > p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.footer-links,
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #00aaff;
+}
+
+.copyright {
+    color: #555 !important;
+    font-size: 13px;
+    margin-top: 30px;
+}
+/* Responsive Design */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 20px 5%;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 5%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-image {
+        width: 80%;
+    }
+
+    .feature-container {
+        grid-template-columns: 1fr;
+    }
+
+    .specifications {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 5%;
+    }
+
+    .spec-list {
+        margin: auto;
+    }
+
+    .spec-item {
+        text-align: left;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-tag {
+        font-size: 11px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .section-heading h2,
+    .pricing-heading h2 {
+        font-size: 34px;
+    }
+
+    .spec-content h2 {
+        font-size: 35px;
+    }
+
+    .spec-circle {
+        width: 260px;
+        height: 260px;
+    }
+
+    .spec-circle span {
+        font-size: 32px;
+    }
+
+    .pricing-card {
+        padding: 40px 25px;
+    }
+
+    .contact-content h2 {
+        font-size: 38px;
+    }
+
+}
